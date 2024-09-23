@@ -1,15 +1,17 @@
-# SiamFC - PyTorch
+# DehazeFormer
+论文：小波DehazeFormer网络的道路交通图像去雾
+Paper：Wavelet dehazeformer network for road traffic image dehazing method
+DOI:10. 37188/OPE.20243212.1915
+Authors: Xia Ping, Li Ziyi, Lei Bangjun, ea al.
 
-> Highlights of this update:
-> - Higher scores with more stable training performance.
-> - Faster training (~11 minutes to train one epoch on GOT-10k on a single GPU).
-> - Added MIT LICENSE.
-> - Organized code.
-> - Uploaded pretrained weights. ([Google Drive](https://drive.google.com/file/d/1UdxuBQ1qtisoWYFZxLgMFJ9mJtGVw6n4/view?usp=sharing) or [Baidu Yun](https://pan.baidu.com/s/1MTVXylPrSqpqmVD4iBwbpg) (password: wbek))
+## Experimental environment and datasets（实验环境与数据集）
+1 NVIDIA GeForce RTX3090 (24G)
+Ubuntu20. 04
+python3.8
+dadasets：Foggy_Cityscapes, 4K-HAZE, and DKITTI
 
-A clean PyTorch implementation of SiamFC tracker described in paper [Fully-Convolutional Siamese Networks for Object Tracking](https://www.robots.ox.ac.uk/~luca/siamese-fc.html). The code is evaluated on 7 tracking datasets ([OTB (2013/2015)](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html), [VOT (2018)](http://votchallenge.net), [DTB70](https://github.com/flyers/drone-tracking), [TColor128](http://www.dabi.temple.edu/~hbling/data/TColor-128/TColor-128.html), [NfS](http://ci2cv.net/nfs/index.html) and [UAV123](https://ivul.kaust.edu.sa/Pages/pub-benchmark-simulator-uav.aspx)), using the [GOT-10k toolkit](https://github.com/got-10k/toolkit).
+## Acknowledgement(致谢)
 
-## Performance (the scores are not updated yet)
 
 ### GOT-10k
 
