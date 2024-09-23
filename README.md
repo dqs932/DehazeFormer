@@ -1,25 +1,34 @@
 # DehazeFormer
 论文：小波DehazeFormer网络的道路交通图像去雾
+
 Paper：Wavelet dehazeformer network for road traffic image dehazing method
+
 DOI:10. 37188/OPE.20243212.1915
+
 Authors: Xia Ping, Li Ziyi, Lei Bangjun, ea al.
 
 ## Experimental environment and datasets（实验环境与数据集）
 1 NVIDIA GeForce RTX3090 (24G)
+
 Ubuntu20. 04
+
 python3.8
+
 dadasets：Foggy_Cityscapes, 4K-HAZE, and DKITTI
+
 
 ## Acknowledgement(致谢)
 
+本论文的实验数据得到了三峡大学先进计算中心的计算支持和帮助，在此表示诚挚感谢。
 
-### GOT-10k
+The numerical calculation of this paper is supported and assisted by the Advanced Computing Center of China Three Gorges University.
 
-| Dataset | AO    | SR<sub>0.50</sub> | SR<sub>0.75</sub> |
-|:------- |:-----:|:-----------------:|:-----------------:|
-| GOT-10k | 0.355 | 0.390             | 0.118             |
+### Highlight
 
-The scores are comparable with state-of-the-art results on [GOT-10k leaderboard](http://got-10k.aitestunion.com/leaderboard).
+1. Network
+
+![image](https://github.com/user-attachments/assets/a31ff7b4-8265-4c48-a808-1e3be80f6014)
+![image](https://github.com/user-attachments/assets/76b26efc-eded-42ab-9444-958820d5b99a)
 
 ### OTB / UAV123 / DTB70 / TColor128 / NfS
 
@@ -34,11 +43,6 @@ The scores are comparable with state-of-the-art results on [GOT-10k leaderboard]
 | NfS (30 fps)  | -                | -                |
 | NfS (240 fps) | 0.520            | 0.624            |
 
-### VOT2018
-
-| Dataset       | Accuracy    | Robustness (unnormalized) |
-|:-----------   |:-----------:|:-------------------------:|
-| VOT2018       | 0.502       | 37.25                     |
 
 ## Installation
 
@@ -52,8 +56,6 @@ conda install -c menpo opencv
 # install GOT-10k toolkit
 pip install got10k
 ```
-
-[GOT-10k toolkit](https://github.com/got-10k/toolkit) is a visual tracking toolkit that implements evaluation metrics and tracking pipelines for 9 popular tracking datasets.
 
 ## Training the tracker
 
