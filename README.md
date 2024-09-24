@@ -9,13 +9,9 @@ Authors: Xia Ping, Li Ziyi, Lei Bangjun, ea al.
 
 ## Experimental environment and datasets（实验环境与数据集）
 1 NVIDIA GeForce RTX3090 (24G)
+Ubuntu20. 04, python3.8
 
-Ubuntu20. 04
-
-python3.8
-
-dadasets：Foggy_Cityscapes, 4K-HAZE, and DKITTI
-
+Dadasets：Foggy_Cityscapes, 4K-HAZE, and DKITTI
 
 ## Acknowledgement(致谢)
 
